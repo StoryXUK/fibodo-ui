@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en" class="no-outlines">
+
 <head>
 
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
 
     <!-- ==== Document Title ==== -->
     <title>Fibodo - Dashboard</title>
-    
+
     <!-- ==== Document Meta ==== -->
     <meta name="author" content="">
     <meta name="description" content="">
@@ -18,7 +19,8 @@
     <link rel="icon" href="favicon.png" type="image/png">
 
     <!-- ==== Google Font ==== -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CMontserrat:400,500">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CMontserrat:400,500">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -38,8 +40,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Page Level Stylesheets -->
-    
+
 </head>
+
 <body>
 
     <!-- Wrapper Start -->
@@ -126,7 +129,7 @@
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li><a href="profile.html"><i class="far fa-user"></i>Profile</a></li>
+                            <li><a href="profile.html"><i class="far fa-user"></i>Account Details</a></li>
                             <li><a href="mailbox_inbox.html"><i class="far fa-envelope"></i>Inbox</a></li>
                             <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
                             <li class="dropdown-divider"></li>
@@ -192,11 +195,23 @@
                                     <span>Dashboard</span>
                                 </a>
                             </li>
-                            
+                            <li>
+                                <a href="calendar.html">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>Planner</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="products.html">
+                                    <i class="far fa-sticky-note"></i>
+                                    <span>Products</span>
+                                </a>
+                            </li>
+
                             <li>
                                 <a href="#">
                                     <i class="far fa-envelope"></i>
-                                    <span>Mailbox</span>
+                                    <span>Messages</span>
                                 </a>
 
                                 <ul>
@@ -204,12 +219,7 @@
                                     <li><a href="mailbox_compose.html">Compose</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="calendar.html">
-                                    <i class="far fa-calendar-alt"></i>
-                                    <span>Calendar</span>
-                                </a>
-                            </li>
+                            
                             <li>
                                 <a href="chat.html">
                                     <i class="far fa-comments"></i>
@@ -222,13 +232,8 @@
                                     <span>Contacts</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="products.html">
-                                    <i class="far fa-sticky-note"></i>
-                                    <span>Products</span>
-                                </a>
-                            </li>
-                            <li>
+                            
+                           
                             <li>
                                 <a href="index.html">
                                     <i class="far fa-sticky-note"></i>
@@ -237,92 +242,53 @@
                             </li>
                             
                             <li>
-                            <li>
-                                <a href="todo-list.html">
+                                <a href="admin.html">
                                     <i class="fa fa-tasks"></i>
-                                    <span>Todo List</span>
+                                    <span>Admin</span>
                                 </a>
                             </li>
                             
+                            
+
                         </ul>
                     </li>
 
                     <li>
-                        <a href="#">Extra</a>
+                        <a href="#">Book Marks</a>
 
                         <ul>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-file"></i>
-                                    <span>Book Marks</span>
+                                <a href="products-edit.html">
+                                    <i class="far fa-sticky-note"></i>
+                                    <span>Create Products</span>
                                 </a>
-
-                                <ul>
-                                    <li><a href="pricing-tables.html">Pricing Tables</a></li>
-                                    <li><a href="profile.html">Profile</a></li>
-                                    <li><a href="invoice.html">Invoice</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                    <li><a href="forgot-password.html">Forgot Password</a></li>
-                                    <li><a href="lock-screen.html">Lock Screen</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                    <li><a href="500.html">500 Error</a></li>
-                                    <li><a href="maintenance.html">Maintenance</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                                </ul>
                             </li>
+                            <li>
+                                <a href="admin.html">
+                                    <i class="fa fa-tasks"></i>
+                                    <span>Lead Gen</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admin.html">
+                                    <i class="fa fa-tasks"></i>
+                                    <span>Marketing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admin.html">
+                                    <i class="fa fa-tasks"></i>
+                                    <span>Analytics</span>
+                                </a>
+                            </li>
+                            
                         </ul>
                     </li>
                 </ul>
             </div>
             <!-- Sidebar Navigation End -->
 
-            <!-- Sidebar Widgets Start -->
-            <div class="sidebar--widgets">
-                <div class="widget">
-                    <h3 class="h6 widget--title">Information Summary</h3>
 
-                    <!-- Summary Widget Start -->
-                    <div class="summary--widget">
-                        <div class="summary--item">
-                            <p class="summary--chart" data-trigger="sparkline" data-type="bar" data-width="5" data-height="38" data-color="#2bb3c0">5,6,7,9,15,5,6,7,9,11,7,9,11,7,9,9,3,2</p>
-
-                            <p class="summary--title">Daily Traffic</p>
-                            <p class="summary--stats">307.512</p>
-                        </div>
-
-                        <div class="summary--item">
-                            <p class="summary--chart" data-trigger="sparkline" data-type="bar" data-width="5" data-height="38" data-color="#e16123">2,3,7,7,9,11,9,7,9,11,9,7,5,4,9,7,5,4</p>
-
-                            <p class="summary--title">Average Usage</p>
-                            <p class="summary--stats">2,371,527</p>
-                        </div>
-
-                        <div class="summary--item">
-                            <p class="summary--chart" data-trigger="sparkline" data-type="bar" data-width="5" data-height="38" data-color="#cccccc">5,6,7,9,15,5,6,7,9,11,7,9,11,7,9,9,3,2</p>
-
-                            <p class="summary--title">Disk Usage</p>
-                            <p class="summary--stats">37.5%</p>
-                        </div>
-
-                        <div class="summary--item">
-                            <p class="summary--chart" data-trigger="sparkline" data-type="bar" data-width="5" data-height="38" data-color="#009378">2,3,7,7,9,11,9,7,9,11,9,7,5,4,9,7,5,4</p>
-
-                            <p class="summary--title">CPU Usage</p>
-                            <p class="summary--stats">37.05-32</p>
-                        </div>
-                        
-                        <div class="summary--item">
-                            <p class="summary--chart" data-trigger="sparkline" data-type="bar" data-width="5" data-height="38" data-color="#ff4040">5,6,7,9,15,5,6,7,9,11,7,9,11,7,9,9,3,2</p>
-
-                            <p class="summary--title">Memory Usage</p>
-                            <p class="summary--stats">37.05%</p>
-                        </div>
-                    </div>
-                    <!-- Summary Widget End -->
-                </div>
-            </div>
-            <!-- Sidebar Widgets End -->
         </aside>
         <!-- Sidebar End -->
 
